@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Gallery</string>
+    <string name="base_api_url">https://pixabay.com/api/</string>
+    <string name="api_key">8662527-54af54d9720152ccbff1b24b7</string>
 </resources>
