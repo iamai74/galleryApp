@@ -44,7 +44,11 @@ public class SearchResponse {
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this).append("totalHits", totalHits).append("hits", hits).append("total", total).toString();
+        return new ToStringBuilder(this)
+                .append("totalHits", totalHits)
+                .append("hits", hits)
+                .append("total", total)
+                .toString();
     }
 
 }
